@@ -11,3 +11,11 @@ body {
 .portGrid {
   text-align: center;
 }
+
+.rcorners {
+  border-radius: 25px;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
