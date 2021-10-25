@@ -23,13 +23,16 @@ body {
 
 .siteHeadingStyle {
   text-align: center;
-  padding-top: 50px;
 }
 
 .siteParaStyle {
-  padding-top: 50px;
+  text-align: center;
 }
 
 .footerStyle {
   margin-top: 10rem;
+}
+
+.container {
+  margin: 2% 0 2% 0;
 }
