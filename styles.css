@@ -20,3 +20,16 @@ body {
 .zoom:hover {
   transform: scale(1.2);
 }
+
+.siteHeadingStyle {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.siteParaStyle {
+  padding-top: 50px;
+}
+
+.footerStyle {
+  margin-top: 10rem;
+}
