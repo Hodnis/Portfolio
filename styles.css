@@ -3,10 +3,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 .nameH1 {
   text-align: center;
   padding: 3% 15%;
   font-family: "Playfair Display", serif;
+  margin-bottom: 5rem;
 }
 
 .portGrid {
