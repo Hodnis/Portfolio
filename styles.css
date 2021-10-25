@@ -1,16 +1,25 @@
 body {
   background-color: #f8f0e3;
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
-h1 {
-  font-size: 5rem;
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
 }
 
 .nameH1 {
   text-align: center;
   padding: 3% 15%;
-  font-family: "Playfair Display", serif;
   margin-bottom: 5rem;
 }
 
